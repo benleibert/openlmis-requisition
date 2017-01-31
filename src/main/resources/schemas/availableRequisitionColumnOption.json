@@ -6,26 +6,24 @@
   "properties": {
     "id": {
       "type": "string",
+      "required": true,
       "title": "id"
     },
     "requisitionColumn": {
       "type": "object",
       "$ref": "availableRequisitionColumn.json",
+      "required": true,
       "title": "requisitionColumn"
     },
     "optionName": {
       "type": "string",
+      "required": true,
       "title": "optionName"
     },
     "optionLabel": {
       "type": "string",
+      "required": true,
       "title": "optionLabel"
     }
-  },
-  "required": [
-    "id",
-    "requisitionColumn",
-    "optionName",
-    "optionLabel"
-  ]
+  }
 }
